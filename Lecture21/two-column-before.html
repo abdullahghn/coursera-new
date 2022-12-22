@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Floating before</title>
+</head>
+<style>
+    
+    * {
+        box-sizing: border-box;
+    }
+    div {
+        /*background-color: #753863;*/
+    }
+
+    p {
+        width: 50%;
+        /*border: 1px solid #000;*/
+        float: left;
+        padding: 10px;
+    }
+
+    #p1{
+        /*background-color: #A52a2a;*/
+    }
+
+    #p2{
+        /*background-color: #deb887;*/
+    }
+
+    section{
+        clear: left;
+    }
+</style>
+<body>
+    <h1>Floating Elements</h1>
+
+    <div>
+        <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Blanditiis maxime sequi incidunt! Magni, non reiciendis vitae ea similique ab quae modi? 
+            Obcaecati accusantium sapiente maiores pariatur facere? Saepe, quas quo.</p>
+        <p id="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Blanditiis maxime sequi incidunt! Magni, non reiciendis vitae ea similique ab quae modi? 
+                Obcaecati accusantium sapiente maiores pariatur facere? Saepe, quas quo.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Blanditiis maxime sequi incidunt! Magni, non reiciendis vitae ea similique ab quae modi? 
+                Obcaecati accusantium sapiente maiores pariatur facere? Saepe, quas quo.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Blanditiis maxime sequi incidunt! Magni, non reiciendis vitae ea similique ab quae modi? 
+                Obcaecati accusantium sapiente maiores pariatur facere? Saepe, quas quo.</p>
+        <section>This is regular content continueing after the paragraph boxes.</section>
+    </div>
+</body>
+</html>
